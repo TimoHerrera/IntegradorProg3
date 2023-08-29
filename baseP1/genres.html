@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <title>Filmspot</title>
+</head>
+<body class="body">
+        <header>
+            <section class="contenedorpadre">
+                <article class="buscador">
+                    <form  class="form" action="search-results.html" method="GET">
+                        <input class="placeholder" type="search" name="search" value="" placeholder="¿Qué estás buscando?">
+                        <button class="search" type="submit">Buscar</button>
+                    </form>
+                </article>
+
+                <article class="title">
+                    <h1>Filmspot</h1>
+                </article>
+
+                <nav class="menuprincipal">
+                <ul>
+                        <li class="home"><a href="./index.html">HOME</a></li>
+                        <li class="genres"><a href="./genres.html">Géneros</a></li>
+                        <li class="favorites"><a href="./favorite.html">Favoritos</a></li>
+                    </ul>
+                </nav>
+
+            </section>      
+        </header>
+        <main class="mainfavorite">
+            <section class="genresectionPeliculas">
+                <article class="titleGenre">
+                <h2>Géneros de películas</h2>
+                </article>
+            
+            <article class="genrearticle">
+                <div >
+                    <ul class="genrelistM"> 
+                       
+                    </ul>
+                </div>
+            </article>
+            </section>
+
+            <section class="genresectionSeries">
+                <article class="titleGenre"> 
+                <h2>Géneros de series</h2>
+                </article>
+            <article class="genrearticle">
+                <div >
+                    <ul class="genrelistS"> 
+                              
+                    </ul>
+                </div>
+            </article>
+            </section>
+
+        </main>
+
+        <div class="irArribaCaja">
+            <a class="irArriba" href="#">Volver arriba</a>
+        </div>
+
+        <footer>
+            <div>
+                <p> Ignacio Tettamanti, Giuliana Carabetta Owens e Ícaro Henriksen.</p>
+            </div>
+            <section class="themoviedb">
+                <img src="imagenes/themoviedblogo.svg" class="tmdblogo"/>
+            </section>
+    </footer>   
+        <script src="./js/genres.js"></script>
+</body>  
+</html>
